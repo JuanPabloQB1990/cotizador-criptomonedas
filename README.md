@@ -1,8 +1,3 @@
-# React + Vite
+# React + Vite + Cotizador CriptoMonedas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esta App fue construida con React.js y con ayuda de sus hooks useState, useEffect y se implemento algunos hooks personalizados, se estilizo con ayuda de Styled-Components y spara obtener la info de las Cripto se hizo peticion con la API de Javascript fetch.
