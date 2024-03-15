@@ -28,7 +28,7 @@ const Img = styled.img`
 `;
 
 const Resultado = ({ cotizacion }) => {
-  const { PRICE, HEGDAY, LOWDAY, CHANGEPCT24HOUR, IMAGEURL, LASTUPDATE } =
+  const { PRICE, HIGHDAY, LOWDAY, CHANGEPCT24HOUR, IMAGEURL, LASTUPDATE } =
     cotizacion;
   return (
     <ResultadoContenedor>
@@ -41,7 +41,7 @@ const Resultado = ({ cotizacion }) => {
           El precio es de: <span>{PRICE}</span>
         </Precio>
         <Texto>
-          El precio mas alto del dia: <span>{HEGDAY}</span>
+          El precio mas alto del dia: <span>{HIGHDAY}</span>
         </Texto>
         <Texto>
           El precio mas bajo del dia: <span>{LOWDAY}</span>
