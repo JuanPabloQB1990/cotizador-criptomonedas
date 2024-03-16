@@ -1,6 +1,10 @@
 import styled from "@emotion/styled";
 
 const ResultadoContenedor = styled.div`
+  @media (max-width: 510px) {
+    flex-direction: column;
+    justify-content: center;
+  }
   color: #fff;
   font-family: "Lato", sans-serif;
   display: flex;
@@ -14,12 +18,19 @@ const Precio = styled.p`
   span {
     font-weight: 700;
   }
+  @media (max-width: 360px) {
+    font-size: 18px;
+  }
+
 `;
 
 const Texto = styled.p`
   font-size: 18px;
   span {
     font-weight: 700;
+  }
+  @media (max-width: 360px) {
+    font-size: 15px;
   }
 `;
 
